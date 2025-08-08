@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP FORM</title>
+     <link rel="icon" type="image/x-icon" href="./assets/image/form.jpg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lightgoldenrodyellow;  
+        }
+        .container {
+            height: 490px;
+            width: 340px;
+            background-color: azure;
+            margin-top: 130px;
+            margin-left: 550px;
+            border-radius: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .title h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 20px;
+        }
+        .head a {
+            color: rgb(16, 17, 17);
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .head {
+            height: 50px;
+            text-align: center;
+        }
+        .head button {
+            padding: 10px;
+            width: 146px;
+            border-radius: 10px;
+            border-width: 1px;
+            box-shadow: 3px 3px rgb(42, 13, 35);
+        }
+        input::placeholder{
+            color: rgb(120, 65, 228);
+            opacity: 0.7;
+        }
+        .sub input {
+            width: 300px;
+            margin-left: 20px;
+            padding: 13px;
+            border-radius: 10px;
+            border-width: 0px;
+            box-shadow: 2px 2px;
+        }
+        .link a {
+            margin-left: 12px;
+            text-decoration: none;
+        }
+        .login-btn button {
+            width: 300px;
+            margin-left: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            background-color: rgb(12, 12, 168);
+            color: white;
+            border-width: 1px;
+        }
+        .login-btn a {
+            text-decoration: none;
+            color: white;
+        }
+        .footer {
+            text-align: center;
+            padding-top: 20px;
+        }
+        .footer a {
+            text-decoration: none;
+        }
+        .head button:hover {
+            background-color: rgb(12, 12, 168);
+        }
+        .btn-sign a:hover{
+            color: aliceblue;
+        }
+        @media only screen and (max-width: 768px) {
+            .resp-container {
+                margin-left: 300px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container resp-container">
+        <div class="title">
+            <h1>Signup Form</h1>
+        </div>
+        <div class="head">
+            <button class="btn-sign">
+                <a href="./login-form.html">Login</a>
+            </button>
+            <button  style="background-color:rgb(12, 12, 168) ;">
+                <a href="./signup-form.html"
+                    style="color: aliceblue;">Signup</a>
+            </button>
+        </div><br>
+        <div class="sub" >
+            <input type="text" placeholder="Email Address"/><br><br>
+            <input type="text" placeholder="password" /><br><br>
+            <input type="text" placeholder="Confirm password" />
+        </div>
+        <br><br><br>
+        <div class="login-btn">
+            <button style="box-shadow: 3px 3px black;" >
+                <a href="./index.html">Signup</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
